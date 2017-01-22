@@ -1,0 +1,23 @@
+{
+    "name": "bingvanmoorsel/easyimage",
+    "description": "Image handling and manipulation library with support for Laravel integration",
+    "homepage": "http://bingvanmoorsel.nl/",
+    "keywords": ["image", "gd", "imagick", "laravel", "watermark", "thumbnail"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bing van Moorsel",
+            "email": "mail@bingvanmoorsel.nl",
+            "homepage": "http://bingvanmoorsel.nl/"
+        }
+    ],
+    "require": {
+        "intervention/imagecache": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bingvanmoorsel\\EasyImage\\": "src/Bingvanmoorsel/EasyImage"
+        }
+    },
+    "minimum-stability": "stable"
+}
